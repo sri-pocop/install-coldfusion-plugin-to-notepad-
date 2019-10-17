@@ -1,0 +1,21 @@
+nppColdFusion 0.8.1
+-------------------
+
+-To install-
+
+Use the install script in Install-nppCF.zip on the downloads page:
+https://bitbucket.org/bbluemel/nppcoldfusion/downloads
+
+-OR Manual Install-
+
+Download SQLite: http://sqlite.org/sqlite-dll-win32-x86-3070701.zip
+and put sqlite3.dll in your Notepad++ directory (not the plugins one)
+Put nppColdFusion.dll in:
+c:\Program Files\Notepad++\plugins or c:\Program Files (x86)\Notepad++\plugins (for 64-bit)
+
+Put the contents of the config directory in your user config directory, this is usually:
+For XP: c:\documents and settings\<username>\Application Data\Notepad++\plugins\config
+For Vista/7: c:\users\<username>\Appdata\roaming\Notepad++\plugins\config
+
+Either way you can get to it by pressing windows key and R, 
+and putting %appdata%\Notepad++\plugins\config in the box and clicking ok
